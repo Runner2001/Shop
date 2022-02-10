@@ -1,0 +1,64 @@
+.showitem {
+  padding: 2% 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+.showitem .photo {
+  width: 100%;
+  height: 80vh;
+  background: red;
+}
+
+.showitem .photo .bigPhoto .img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: #363535;
+}
+
+.showitem .photo .smallPhoto {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showitem .photo .smallPhoto .img {
+  width: calc(100% / 5);
+  height: 50%;
+  border-radius: 10px;
+}
+
+.showitem .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.showitem .detail .spe {
+  margin: 10px 0;
+}
+
+.showitem .detail .spe h4 {
+  font-size: 24px;
+}
+/*# sourceMappingURL=seemore.css.map */
